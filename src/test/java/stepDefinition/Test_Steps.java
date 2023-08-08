@@ -42,6 +42,7 @@ public static WebDriver driver;
 	public void message_displayed_login_successfully() {
 		 if(driver.findElement(By.linkText("Logout")).isDisplayed()) {
 		    	System.out.println("Login successful");
+		    	System.out.println("Poll SCM triggered");
 	    }
 	   // throw new io.cucumber.java.PendingException();
 	}
